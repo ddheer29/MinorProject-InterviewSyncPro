@@ -1,0 +1,33 @@
+{
+  "name": "backend-mp",
+  "version": "1.0.0",
+  "description": "InterviewSync-Pro Minor Project Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddheer29/Backend-MP.git"
+  },
+  "author": "Divyang Dheer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddheer29/Backend-MP/issues"
+  },
+  "homepage": "https://github.com/ddheer29/Backend-MP#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "nodemailer": "^6.9.7",
+    "npm": "^10.2.5",
+    "socket.io": "^4.7.2"
+  }
+}

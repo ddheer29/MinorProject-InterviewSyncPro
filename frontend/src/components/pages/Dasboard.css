@@ -1,0 +1,20 @@
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+#sidebar {
+  width: 20%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#main-content {
+  width: 80%;
+  padding: 20px;
+}
